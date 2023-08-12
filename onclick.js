@@ -11,13 +11,15 @@ function stop() {
     if ( 7 <= seconds && seconds < 8 ) {
         displayArea.innerText = `${seconds}秒でした！
         おめでとうございます！！
-        ＼(^o^)／`;
+        ＼(^o^)／
+         reStart.button = `もういちど`;
     }else{
         displayArea.innerText = `${seconds}秒でした！
-        (*>ω<)おしいです！ `;
+        (*>ω<)おしいです！ 
+         reStart.button = `もういちど`;
     }
   document.body.onclick = null;
-  reStart.button = `もういちど`;
+ 
 }
 if(confirm(`OKを押して7秒経ったと思ったら☁️ を押してください。`)){
 　　　　　//confirm関数は、戻り値が意味を持ち、OKを押されるとtrue、キャンセルが押されると
