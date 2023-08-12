@@ -17,6 +17,7 @@ function stop() {
         (*>ω<)おしいです！ `;
     }
   document.body.onclick = null;
+  reStart.buton = `もういちど`;
 }
 if(confirm(`OKを押して7秒経ったと思ったら☁️ を押してください。`)){
 　　　　　//confirm関数は、戻り値が意味を持ち、OKを押されるとtrue、キャンセルが押されると
