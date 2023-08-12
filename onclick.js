@@ -11,12 +11,10 @@ function stop() {
     if ( 7 <= seconds && seconds < 8 ) {
         displayArea.innerText = `${seconds}秒でした！
         おめでとうございます！！
-        ＼(^o^)／
-         reStart.button = `もういちど`;
+        ＼(^o^)／`;
     }else{
         displayArea.innerText = `${seconds}秒でした！
-        (*>ω<)おしいです！ 
-         reStart.button = `もういちど`;
+        (*>ω<)おしいです！ `;
     }
   document.body.onclick = null;
  
